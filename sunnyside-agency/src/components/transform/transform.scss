@@ -1,0 +1,44 @@
+@import '../../global.scss';
+* {
+  color: $color-dark-blue;
+}
+.imageWrapper {
+  height: 50vh;
+  width: 100vw;
+  padding: 0;
+  .transformImage {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+}
+.textWrapper {
+  background-color: $color-white;
+
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    .textHeading {
+      font-family: $font-Fraunces;
+      font-weight: 900;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    .textBody {
+      font-family: $font-Barlow;
+      text-align: center;
+      padding: 1.5rem;
+      color: $color-grayish-blue;
+    }
+    .more {
+      font-size: $font-size;
+      font-weight: 900;
+      text-decoration-color: $color-yellow;
+      text-decoration-style: 2rem solid $color-yellow;
+    }
+  }
+}
