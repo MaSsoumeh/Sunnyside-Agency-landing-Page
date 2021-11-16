@@ -12,7 +12,11 @@
     top: 70%;
     text-align: center;
     .textHeading {
+      font-family: $font-Fraunces;
       margin-bottom: 1.5rem;
+    }
+    .textBody {
+      font-family: $font-Barlow;
     }
   }
 }
