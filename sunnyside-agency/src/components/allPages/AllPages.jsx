@@ -6,6 +6,7 @@ import glassImage from '../../images/mobile/image-stand-out.jpg';
 import cherryImage from '../../images/mobile/image-graphic-design.jpg';
 import orangeImage from '../../images/mobile/image-photography.jpg';
 import GraphicDesign from '../graphicDesign/GraphicDesign';
+import Testimonials from '../testimonials/Testimonials';
 
 const bodyText = [
   {
@@ -59,6 +60,7 @@ const AllPages = () => {
         text={bodyText[3].bodyParagraph}
         color={bodyText[3].color}
       />
+      <Testimonials />
     </>
   );
 };
