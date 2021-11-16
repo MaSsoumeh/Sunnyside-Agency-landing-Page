@@ -5,10 +5,12 @@
   align-items: center;
   background-color: $color-white;
   .heading {
-    color: $color-light-grayish-blue;
     font-family: $font-Fraunces;
     font-size: 0.5rem;
     letter-spacing: 0.25rem;
     margin: 3rem;
+    h2 {
+      color: $color-light-grayish-blue;
+    }
   }
 }
