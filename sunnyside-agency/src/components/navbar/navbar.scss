@@ -8,5 +8,10 @@
     width: 100%;
     padding: 10px;
     align-items: center;
+    .leftSide {
+      .menuBurger {
+        cursor: pointer;
+      }
+    }
   }
 }

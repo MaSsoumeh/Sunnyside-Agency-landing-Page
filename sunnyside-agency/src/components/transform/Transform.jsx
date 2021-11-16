@@ -1,23 +1,20 @@
-import eggImage from '../../images/mobile/image-transform.jpg';
 import './transform.scss';
-const Transform = () => {
+
+const Transform = (props) => {
+  const { image, title, text } = props;
   return (
     <>
       <section className='imageWrapper'>
         <img
-          src={eggImage}
-          alt='an egg in a Yellow background'
+          src={image}
+          alt='a graphic for the section header'
           className='transformImage'
         />
       </section>
       <section className='textWrapper'>
         <article className='textContainer'>
-          <h1 className='textHeading'>Transform your brand</h1>
-          <p className='textBody'>
-            We are a full-service creative agency specializing in helping brands
-            grow fast. Engage your clients through compelling visuals that do
-            most of the marketing for you.
-          </p>
+          <h1 className='textHeading'>{title}</h1>
+          <p className='textBody'>{text}</p>
           <a href='#home' className='more'>
             LEARN MORE
           </a>
