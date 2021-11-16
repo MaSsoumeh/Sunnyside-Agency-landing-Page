@@ -4,7 +4,7 @@ import headerImg from '../../images/mobile/image-header.jpg';
 const Home = () => {
   return (
     <>
-      <section className='imageWrapper'>
+      <section className='homeWrapper'>
         <img
           src={headerImg}
           alt='a slice of an orange'

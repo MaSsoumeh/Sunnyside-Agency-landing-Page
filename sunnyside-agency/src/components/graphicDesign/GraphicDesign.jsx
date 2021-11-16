@@ -7,7 +7,7 @@ const GraphicDesign = (props) => {
   console.log(color);
   return (
     <>
-      <section className='imageWrapper'>
+      <section className='graphicWrapper'>
         <img
           className='image'
           src={image}

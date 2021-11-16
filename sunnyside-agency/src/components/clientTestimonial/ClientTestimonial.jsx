@@ -4,7 +4,7 @@ const ClientTestimonial = (props) => {
   const { clientImage, clientComment, clientName, clientCompany } = props;
   return (
     <>
-      <section className='mainWrapper'>
+      <section className='clientWrapper'>
         <article className='testimonial'>
           <figure className='clientImage'>
             <img src={clientImage} alt='client' />
