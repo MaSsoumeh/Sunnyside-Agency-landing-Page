@@ -12,14 +12,14 @@ const clientTestimonials = [
     clientCompany: 'Marketing Director',
   },
   {
-    clientImage: jennie,
+    clientImage: thomas,
     clientComment: `Sunnyside’s
     enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.`,
     clientName: 'Thomas S.',
     clientCompany: 'Chief Operating Officer',
   },
   {
-    clientImage: thomas,
+    clientImage: jennie,
     clientComment: `Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!`,
     clientName: 'Jennie F.',
     clientCompany: 'Business Owner',
