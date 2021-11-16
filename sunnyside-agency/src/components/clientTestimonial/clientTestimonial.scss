@@ -1,0 +1,34 @@
+@import '../../global.scss';
+.mainWrapper {
+  box-sizing: border-box;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: $font-Barlow;
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .clientImage {
+      img {
+        margin-bottom: 1rem;
+        border-radius: 50%;
+        width: 35%;
+        height: 35%;
+      }
+    }
+    .clientComment {
+      color: $color-dark-grayish-blue;
+      margin-bottom: 2rem;
+    }
+    .clientName {
+      font-family: $font-Fraunces;
+      color: $color-dark-blue;
+      margin-bottom: 0.5rem;
+    }
+    .clientCompany {
+      color: $color-light-grayish-blue;
+      margin-bottom: 3rem;
+    }
+  }
+}
