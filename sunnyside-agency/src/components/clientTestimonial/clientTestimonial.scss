@@ -11,7 +11,7 @@
     align-items: center;
     .clientImage {
       img {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
         border-radius: 50%;
         width: 35%;
         height: 35%;
@@ -19,7 +19,7 @@
     }
     .clientComment {
       color: $color-dark-grayish-blue;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
     .clientName {
       font-family: $font-Fraunces;
@@ -29,6 +29,7 @@
     .clientCompany {
       color: $color-light-grayish-blue;
       margin-bottom: 3rem;
+      font-size: 0.75rem;
     }
   }
 }
