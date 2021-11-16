@@ -4,7 +4,7 @@ const Transform = (props) => {
   const { image, title, text } = props;
   return (
     <>
-      <section className='imageWrapper'>
+      <section className='transformWrapper'>
         <img
           src={image}
           alt='a graphic for the section header'
