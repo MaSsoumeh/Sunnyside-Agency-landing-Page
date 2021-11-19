@@ -7,6 +7,7 @@ import cherryImage from '../../images/mobile/image-graphic-design.jpg';
 import orangeImage from '../../images/mobile/image-photography.jpg';
 import GraphicDesign from '../graphicDesign/GraphicDesign';
 import Testimonials from '../testimonials/Testimonials';
+import Grid from '../grid/Grid';
 
 const bodyText = [
   {
@@ -61,6 +62,7 @@ const AllPages = () => {
         color={bodyText[3].color}
       />
       <Testimonials />
+      <Grid />
     </>
   );
 };
