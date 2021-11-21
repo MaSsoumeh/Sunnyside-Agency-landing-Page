@@ -1,5 +1,6 @@
 @import '../../global.scss';
 .footerWrapper {
+  width: 100vw;
   text-align: center;
   background-color: lighten($color-footer, 20%);
   .innerWrapper {

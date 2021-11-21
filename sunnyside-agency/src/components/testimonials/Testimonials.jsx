@@ -32,11 +32,12 @@ const Testimonials = () => {
         <header className='heading'>
           <h2>CLIENT TESTIMONIALS</h2>
         </header>
-        {clientTestimonials.map((client) => {
+        {clientTestimonials.map((client, index) => {
           const { clientImage, clientComment, clientName, clientCompany } =
             client;
           return (
             <ClientTestimonial
+              key={index}
               clientImage={clientImage}
               clientComment={clientComment}
               clientName={clientName}
