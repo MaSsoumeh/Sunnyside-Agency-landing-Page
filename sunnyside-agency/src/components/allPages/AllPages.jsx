@@ -8,6 +8,7 @@ import orangeImage from '../../images/mobile/image-photography.jpg';
 import GraphicDesign from '../graphicDesign/GraphicDesign';
 import Testimonials from '../testimonials/Testimonials';
 import Grid from '../grid/Grid';
+import Footer from '../footer/Footer';
 
 const bodyText = [
   {
@@ -63,6 +64,7 @@ const AllPages = () => {
       />
       <Testimonials />
       <Grid />
+      <Footer />
     </>
   );
 };

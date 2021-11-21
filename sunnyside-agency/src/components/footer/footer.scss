@@ -1,0 +1,40 @@
+@import '../../global.scss';
+.footerWrapper {
+  text-align: center;
+  background-color: lighten($color-footer, 20%);
+  .innerWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .title {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 900;
+      font-family: $font-Barlow;
+      color: darken($color-footer, 10%);
+    }
+    .bottomNav {
+      .navBar {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        li {
+          font-family: $font-Barlow;
+          color: $color-footer;
+          padding: 2rem;
+        }
+      }
+    }
+    .otherLinks {
+      display: flex;
+      margin: 3rem;
+      justify-content: space-between;
+      img {
+        padding: 1rem;
+      }
+    }
+  }
+}
